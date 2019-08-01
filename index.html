@@ -36,7 +36,7 @@ $("input").addEventListener("keyup", function(e){
 
 var draw = function(){
   context.drawImage(template, 0, 0, 300, 616);
-  tategaki(context, text, 235, 73);
+  tategaki(context, text, 235, 76);
   if(text != ""){
     history.replaceState(null, null, '/aniki_generator/?text=' + text);
   }else{
